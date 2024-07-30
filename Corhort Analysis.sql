@@ -1,4 +1,4 @@
-/*Task 1: "Let's build a cohort chart for all customer of Electricity billing in 2017."
+/*Task 2: "Let's build a cohort chart for all customer of Electricity billing in 2017."
 "Hãy xây dựng biểu đồ cohort cho tất cả khách hàng thanh toán tiền điện trong năm 2017." */
 WITH table_first as (
     SELECT customer_id, order_id, transaction_date
